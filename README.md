@@ -12,9 +12,14 @@ https://mylandmaktechnology.github.io/helm22/.
 https://github.com/myLandmakTechnology/helm22.git
 helm repo index helm22 https://mylandmaktechnology.github.io/helm22/.
 helm repo index helm22 --url https://mylandmaktechnology.github.io/helm22/
+
 $ git clone https://github.com/LandmarkTechnologiesDevOps/helmrepo.git
+
 $ mv javawebapp-0.1.0.tgz helmrepo
+
 $ helm repo index helmrepo --url https://landmaktechnology.github.io/helmrepolandmark/
+
 Note: Above URL(Repo) is GitHub Page Link Which We can get from Git Hub Pages
 of our repo.
+
 $ cd helmrepo
